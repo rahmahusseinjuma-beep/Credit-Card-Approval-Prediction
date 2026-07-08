@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container result-box">
+        {% if result == "Approved" %}
+            <h1 class="approved">Approved</h1>
+        {% else %}
+            <h1 class="rejected">Rejected</h1>
+        {% endif %}
+
+        <p>Risk Category: <strong>{{ risk_category }}</strong></p>
+
+        <a href="/">Check Another Applicant</a>
+    </div>
+</body>
+</html>
