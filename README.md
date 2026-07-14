@@ -3,10 +3,15 @@ Machine learning system that predicts credit card approval using applicant and c
 
 
 /Credit-Card-Approval-Prediction/
+
 ├── README.md
+
 |----schema and env
+
  ├── schema.sql
+ 
  ├── .env.example
+ 
 ├── /1. Brainstorming & Ideation
  |--Brainstorming & ideation
  |--Define problem statement
